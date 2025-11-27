@@ -1,8 +1,13 @@
+import LineRechart from "./components/LineChart/LineRechart";
+import Phones from "./components/Phones/Phones";
+import PriceOptions from "./components/PriceOptions/PriceOptions";
+
 function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <p>Welcome to my React application.</p>
+      <PriceOptions></PriceOptions>
+      <LineRechart></LineRechart>
+      <Phones></Phones>
     </div>
   );
 }
